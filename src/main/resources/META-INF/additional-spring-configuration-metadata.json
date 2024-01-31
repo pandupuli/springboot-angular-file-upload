@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "resource.basedir",
+  "type": "java.lang.String",
+  "description": "A description for 'resource.basedir'"
+}]}
