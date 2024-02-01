@@ -13,7 +13,7 @@ public class WebAppConfig
    {
       String[] allowDomains = new String[2];
       allowDomains[0] = "http://localhost:4200";
-      allowDomains[1] = "http://localhost:61174";
+      allowDomains[1] = "http://localhost:62773";
       
       return new WebMvcConfigurer() {
          @Override

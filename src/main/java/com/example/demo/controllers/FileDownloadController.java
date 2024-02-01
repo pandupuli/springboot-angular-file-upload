@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 
 
+
 @RestController
 public class FileDownloadController
 {
@@ -33,6 +34,7 @@ public class FileDownloadController
    public ResponseEntity<StreamingResponseBody> downloadFile(
          @PathVariable("fileName") String fileName)
    {
+	   System.out.println("STEP2--> FileDownloadController");
       System.out.println("Received file name: " + fileName);
       ResponseEntity<StreamingResponseBody> retVal = null;
       if (StringUtils.hasText(fileName))
